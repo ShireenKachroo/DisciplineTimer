@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2a2f1a;
+  font-family: 'Segoe UI', sans-serif;
+  color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.timer-box {
+  background-color: #4b5320;
+  padding: 40px;
+  border-radius: 12px;
+  border: 3px solid #8b5e3c;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.timer-box h1 {
+  font-size: 2.2em;
+  color: #d4af37;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#time-display {
+  font-size: 3em;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  background-color: #3c3f2c;
+  border-radius: 8px;
+  color: #ffffff;
+  border: 2px solid #d4af37;
+}
+
+.btns button {
+  background-color: #8b0000;
+  border: none;
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 1em;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btns button:hover {
+  background-color: #a52a2a;
+}
+
+
+input#durationInput {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  text-align: center;
+}
